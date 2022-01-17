@@ -108,8 +108,8 @@ nav a {
 }
 
 .post-image {
-  min-height: 500px;
   object-fit: cover;
+  min-height: 200px;
   margin-bottom: 1.5em;
 }
 
@@ -117,12 +117,12 @@ nav a {
   order: -2;
 }
 
-.image-left {
-  object-position: left;
-}
-
 .post-normal-image {
 
+}
+
+.image-left {
+  object-position: left;
 }
 
 .post-info {
@@ -146,6 +146,21 @@ nav a {
   font-weight: 700;
 }
 
+/* widget */
 
+.widget-post {
+  border: 1px solid salmon;
+  padding: 3em 1em;
+}
 
+.widget-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
 
+.widget-recent-image {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
