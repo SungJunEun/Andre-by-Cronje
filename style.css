@@ -1,0 +1,90 @@
+
+/* General */
+
+body {
+  margin: 0;
+  color: #646363;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Typography */
+
+h1,
+h2,
+.subtitle {
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+h1 {
+  color: #1792D2;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.subtitle {
+  color: #143774;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+h2 {
+  color: #1792D2;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #1792D2;
+}
+
+/* Layout */
+
+header {
+  color: #F8F8F8;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* header */
+
+.container-nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 3em 0;
+
+
+}
+
+nav {
+  margin: 1.5em 0;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+}
+
+nav li {
+  margin: 1em 0;
+}
+
+nav a {
+  color: #717171;
+}
