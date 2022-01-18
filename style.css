@@ -22,6 +22,7 @@ ul {
 
 h1,
 h2,
+h3,
 p,
 .subtitle {
   font-family: 'Lora', serif;
@@ -46,7 +47,7 @@ h2 {
 }
 
 h3 {
-  color: #143774;
+  color: #1792D2;
   font-size: 1.125rem;
 }
 
@@ -58,7 +59,7 @@ a {
 /* Layout */
 
 header {
-  color: rgb(243, 241, 241);
+  background-color: #F8F8F8;
 }
 
 .container {
@@ -79,7 +80,7 @@ header {
 }
 
 nav {
-  margin: 2em 0;
+  margin-top: 2em;
 }
 
 nav ul {
@@ -99,7 +100,6 @@ nav a {
 
 .post {
   padding-bottom: 2em;
-  margin-bottom: 2em;
 }
 
 .post-featured {
@@ -113,6 +113,7 @@ nav a {
 }
 
 .post-image {
+  margin-top: 2em;
   object-fit: cover;
   min-height: 200px;
   margin-bottom: 1.5em;
@@ -154,22 +155,41 @@ nav a {
 /* widget */
 
 .widget-post {
-  border: 10px solid #b6b4b4;
-  padding: 2em 0.5em;
+  border: 20px solid #EBEBEB;
+  padding: 1em 1em;
 }
 
 .widget-title {
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 
 .widget-image {
-  height: 100px;
+  height: 120px;
   object-fit: cover;
-  margin-bottom: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.widget-body {
+  color: #143774;
+  font-size: 0.75rem;
+}
+
+.widget-post-recent {
+  border-bottom: 2px solid #EBEBEB;
+  margin-bottom: 2em;
+}
+
+.widget-post-recent:last-child {
+  border: none;
 }
 
 .widget-recent-image {
-  height: 100px;
-  object-fit: cover;    margin-bottom: 1.5em;
+  height: 120px;
+  object-fit: cover;    
+  margin-bottom: .5em;
 
+}
+
+.widget-recent-subtitle {
+  margin-bottom: 1.5em;
 }
