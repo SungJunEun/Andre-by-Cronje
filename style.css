@@ -56,6 +56,11 @@ a {
   color: #1792D2;
 }
 
+a:hover,
+a:focus {
+  color: #143774;
+}
+
 /* Layout */
 
 header {
@@ -64,8 +69,24 @@ header {
 
 .container {
   width: 80%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
+}
+
+@media (min-width: 900px) {
+  .container-body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+  }
+
+  main {
+    width: 70%;
+  }
+
+  aside {
+    width: 25%;
+  }
 }
 
 /* header */
@@ -75,8 +96,6 @@ header {
   flex-direction: column;
   text-align: center;
   padding: 3em 0;
-
-
 }
 
 nav {
@@ -94,6 +113,24 @@ nav li {
 
 nav a {
   color: #717171;
+}
+
+@media (min-width:744px) {
+  .container-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav {
+    margin-top: 0;
+  }
+  nav ul {
+    flex-direction: row;
+  }
+
+  nav li {
+    margin-left: 1em;
+  }
 }
 
 /* post */
@@ -157,6 +194,7 @@ nav a {
 .widget-post {
   border: 20px solid #EBEBEB;
   padding: 1em 1em;
+  margin-bottom: 2em;
 }
 
 .widget-title {
@@ -192,4 +230,18 @@ nav a {
 
 .widget-recent-subtitle {
   margin-bottom: 1.5em;
+}
+
+/* footer */
+
+footer {
+  background-color: #143774;
+  text-align: center;
+  color: white; 
+  padding: 2.5em 0;
+}
+
+.footer-title {
+  margin-top: 1em;
+  font-weight: 700;
 }
