@@ -190,6 +190,24 @@ nav a {
   font-weight: 700;
 }
 
+@media (min-width:1000px) {
+  .post-normal {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .post-normal-content {
+    width: 40%;
+  }
+  .post-normal-main {
+    width: 58%;
+  }
+
+  .post-normal-image {
+    margin-top: 1em;
+  }
+}
+
 /* widget */
 
 .widget-post {
