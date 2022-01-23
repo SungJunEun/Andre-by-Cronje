@@ -1,4 +1,4 @@
-# Andre Cronje
+# Andre by Cronje
 ***Practicing after taking [Starting to Think Responsively](https://scrimba.com/playlist/p6wxPhk) from scrimba.com***
 
 ###  https://andre-cronje.kkang60298.repl.co/index.html
